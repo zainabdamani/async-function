@@ -1,1 +1,62 @@
-k
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Async/await/style.css">
+</head>
+
+<body>
+
+    <div class="alinhar">
+        <form id="new-person-form">
+            <label for="new-name">Nome:</label>
+            <input type="text" id="new-name" name="name" required>
+            <br>
+            <label for="new-dob">Data de Nascimento:</label>
+            <input type="date" id="new-dob" name="dob" required>
+            <br>
+            <label for="new-cpf">CPF:</label>
+            <input type="text" id="new-cpf" name="cpf" required>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <form id="update-person-form">
+            <label for="update-id">ID:</label>
+            <input type="text" id="update-id" name="id" required>
+            <br>
+            <label for="update-name">Nome:</label>
+            <input type="text" id="update-name" name="name" required>
+            <br>
+            <label for="update-dob">Data de Nascimento:</label>
+            <input type="date" id="update-dob" name="dob" required>
+            <br>
+            <label for="update-cpf">CPF:</label>
+            <input type="text" id="update-cpf" name="cpf" required>
+            <br>
+            <button type="submit">Atualizar</button>
+        </form>
+    </div>
+
+    <h1 class="titulo">Lista Pessoas</h1>
+    <table id="person-list">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</body>
+
+<script src="/Async/await/pessoas.js"></script>
+
+</html>

@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+.delete-icon{
+    cursor: pointer;
+    color: red;
+}
+
+.titulo{
+    text-align: center;
+    color: green;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#new-person-form{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#update-person-form{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
